@@ -49,6 +49,7 @@ public static void shuffle(int[] arr) {
         arr[i] = arr[j];
         // here we are setting the value of the array at index i to the value of the array at index j
         arr[j] = temp;
+        
         // here we are setting the value of the array at index j to the value of the temp variable
     }
 }
