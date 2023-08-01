@@ -11,7 +11,8 @@ public class Developer {
 
     // this is one way to initialize a constructor
     // Setters
-    public Developer(){
+    public Developer() {
+        this.languages = new ArrayList<>(languages);
         this.name = "no name";
     }
 
@@ -47,7 +48,7 @@ public class Developer {
         this.projects = projects;
     }
 
-    public void addProject(Project project){
+    public void addProject(Project project) {
         this.projects.add(project);
     }
 
