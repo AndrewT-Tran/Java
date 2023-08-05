@@ -1,6 +1,7 @@
 public class Test {
     public static void main(String[] args) {
         Gorilla gorilla = new Gorilla(100);
+        gorilla.displayEnergy();
 
         gorilla.throwSomething();
         gorilla.throwSomething();
@@ -13,7 +14,8 @@ public class Test {
 
         gorilla.displayEnergy();
 
-        Bat bat = new Bat(100);
+        Bat bat = new Bat(300);
+        bat.displayEnergy();
 
         bat.attackTown();
         bat.attackTown();
